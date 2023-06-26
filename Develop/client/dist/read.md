@@ -56,7 +56,7 @@ _If there are any questions_
 Please contact:
 
 Email: 
-[leyla.callahan@yahoo.cpom](mailto:leyla.callahan@yahoo.cpom);
+[leyla.callahan@yahoo.cpom](mailto:leyla.callahan@yahoo.com);
 
 ## Live_links
 Website: [www.github.com](https://github.com/leig1974/Week19--19-Progressive-Web-Applications-PWA-Text-Editor);
