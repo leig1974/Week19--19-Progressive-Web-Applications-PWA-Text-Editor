@@ -1,41 +1,42 @@
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
+
 module.exports = () => {
   return {
     mode: 'development',
-    // Entry point for files
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      },
-    // Output for our bundles
+      database: './src/js/database.js',
+      editor: './src/js/editor.js',
+      header: './src/js/header.js',
+    },
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      // Webpack plugin that generates our html file and injects our bundles. 
+      // Webpack plugin that generates our html file and injects our bundles
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'J.A.T.E.'
+        title: 'JATE'
       }),
-     
-      // Injects our custom service worker
+      // Injects our custom servie worker
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
-
       // Creates a manifest.json file.
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
         name: 'Just Another Text Editor',
-        short_name: 'J.A.T.E.',
-        description: 'Text Editor',
+        short_name: 'JATE',
+        description: 'Just another text editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',
@@ -48,10 +49,11 @@ module.exports = () => {
           },
         ],
       }),
+
     ],
 
     module: {
-      // CSS loaders
+      // CSS Loaders
       rules: [
         {
           test: /\.css$/i,
