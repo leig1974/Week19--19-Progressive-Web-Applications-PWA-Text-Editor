@@ -1,5 +1,12 @@
 # 19 Progressive Web Applications (PWA): Text Editor
 
+
+
+## LiveLink:
+https://week19--19-progressive-web-app-3f80f8fa0230.herokuapp.com/
+
+## GitLink:
+https://github.com/leig1974/Week19--19-Progressive-Web-Applications-PWA-Text-Editor
 ## Your Task
 
 As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
@@ -140,3 +147,11 @@ You are required to submit the following for review:
 
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+
+
+#LiveLink:
+https://week19--19-progressive-web-app-3f80f8fa0230.herokuapp.com/
+
+#GitLink:
+https://github.com/leig1974/Week19--19-Progressive-Web-Applications-PWA-Text-Editor
